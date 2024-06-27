@@ -1,0 +1,15 @@
+┌─ nixpkgs_flutter_repro/failing/test is  v1.0.0+1 via  v3.4.0 via  impure (nix-shell-env) 
+└─> dart run build_runner doctor -v
+Resolving dependencies in `/home/andreas/Downloads/nixpkgs_flutter_repro/failing/test`... 
+Because test depends on flutter_test from sdk which doesn't exist (the Flutter SDK is not
+  available), version solving failed.
+
+Flutter users should use `flutter pub` instead of `dart pub`.
+
+
+┌─ nixpkgs_flutter_repro/failing/test is  v1.0.0+1 via  v3.4.0 via  impure (nix-shell-env) 
+└─> flutter --version
+Flutter 3.22.0 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision nixpkgs000 () • 1970-01-01 00:00:00
+Engine • revision f6344b75dc
+Tools • Dart 3.4.0 • DevTools 2.34.3

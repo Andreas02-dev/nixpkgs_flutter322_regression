@@ -1,0 +1,20 @@
+┌─ nixpkgs_flutter_repro/working/test is  v1.0.0+1 via  v3.3.2 via  impure (nix-shell-env) 
+└─> dart run build_runner doctor -v
+Building package executable... (4.1s)
+Built build_runner:build_runner.
+[INFO] Entrypoint:Generating build script...
+[INFO] Entrypoint:Generating build script completed, took 192ms
+
+[INFO] Bootstrap:Precompiling build script......
+[INFO] Bootstrap:Precompiling build script... completed, took 2.7s
+
+[FINE] Bootstrap:Core package locations file does not exist
+[INFO] doctor:No problems found!
+
+
+…nixpkgs_flutter_repro/working/test is  v1.0.0+1 via  v3.3.2 via  impure (nix-shell-env) took 7s 
+└─> flutter --version
+Flutter 3.19.4 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision nixpkgs000 () • 1970-01-01 00:00:00
+Engine • revision a5c24f538d
+Tools • Dart 3.3.2 • DevTools 2.31.1
